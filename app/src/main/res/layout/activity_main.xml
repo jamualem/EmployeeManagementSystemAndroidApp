@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kals"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.54"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.76"/>
+    <Button
+        android:background="#FF890A"
+        android:id="@+id/registor"
+        android:text="registor employee"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/g3"
+        app:layout_constraintBottom_toTopOf="@id/g7"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        />
+    <Button
+        android:background="#42C612"
+        android:id="@+id/update"
+        android:text="update employee"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/g8"
+        app:layout_constraintTop_toBottomOf="@+id/g4"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        />
+    <Button
+        android:background="#D8C40F"
+        android:id="@+id/view"
+        android:text="view employee"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/g9"
+        app:layout_constraintTop_toBottomOf="@+id/g5"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        />
+    <Button
+        android:background="#C2D2F4"
+        android:id="@+id/delete"
+        android:layout_width="0dp"
+        android:text="delete employee"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/g10"
+        app:layout_constraintTop_toBottomOf="@+id/g6"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
